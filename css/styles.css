@@ -5,12 +5,6 @@ ol {
 a {
     text-decoration: none;
 }
-button {
-    cursor: pointer;
-}
-img {
-    display: block;
-}
 body {
    font-family: "Roboto", sans-serif;
    color: #434455;
@@ -72,6 +66,7 @@ body {
             letter-spacing: 0.04em;
             color: #fff;
             background-color: #4d5ae5;
+            cursor: pointer;
 }
 .order-service-btn:hover,
 .order-service-btn:focus {
@@ -106,7 +101,7 @@ body {
 .team {
     background-color: #F4F4FD
 }
-.team-list-item {
+.team-list {
     background-color: #FFFFFF;
 }
 .team-list-name {
