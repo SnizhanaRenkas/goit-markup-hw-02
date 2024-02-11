@@ -40,8 +40,7 @@ body {
 
 }
 .nav-list-link:hover,
-.nav-list-link:focus,
-.nav-list-link:active {
+.nav-list-link:focus {
     color: #404bbf;
 }
 .contacts-link {
@@ -49,6 +48,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -124,7 +124,7 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
 }
-.portfolio {
+.section-title {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -148,6 +148,9 @@ body {
 }
 .page-footer {
     background-color: #2e2f42;
+}
+.text-color {
+    color: #f4f4fd;
 }
 .page-footer-text {
         font-weight: 400;
